@@ -1,0 +1,283 @@
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: black;
+    background-size: cover;
+    background-image: url("../img/21omxpw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../img/oirealtor-noticias-vivir-en-barcelona-ciudad-noche.jpg");
+    background-position: center;
+    border-bottom: solid 3px;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+.column-nav {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    border-right: solid 3px black;
+    font-size: 1.3vw;
+    background-color: solid;
+    padding: 1vw;
+}
+
+.cuadro {
+    background-color: rgb(255, 249, 198);
+    border: solid 3px black;
+    padding: 0.5vw;
+}
+
+.cuadro2 {
+    background-color: rgb(255, 249, 198);
+    border: solid 3px black;
+    padding: 0.5vw;
+    color: black;
+}
+
+.column-nav a {
+    text-decoration: none;
+    padding: 1vw;
+    color: black;
+}
+
+.column-nav a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding-left: 2vw;
+}
+
+.column-nav i:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.column-50 {
+    width: 75%;
+    float: left;
+    margin-left: 25%;
+    border-right: solid 3px black;
+    background-color: white;
+}
+
+.column-25 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: white;
+}
+
+.column-25 h2 {
+    text-align: center;
+}
+
+#fila {
+    width: 80%;
+    float: left;
+}
+
+.padding-s {
+    padding: 2vw;
+}
+
+.padding-f {
+    padding: 0.5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+.column-5 {
+    text-align: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-4 h3 {
+    text-align: center;
+}
+
+#sagradafamilia {
+    background-image: url("../img/Sagrada_Família._Façana_del_Naixement_\(cropped\).jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#park {
+    background-image: url("../img/depositphotos_25991689-stock-photo-guell-park-barcelona.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#batllo {
+    background-image: url("../img/14d0e5268a602e6386917aafddbb652e.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#pedrera {
+    background-image: url("../img/depositphotos_25991689-stock-photo-guell-park-barcelona.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#covid {
+    background-image: url("../img/_115033545_gettyimages-1226314512.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#turismo2 {
+    background-image: url("../img/turismo-1280x720.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#ocio {
+    background-image: url("../img/2020-10-17.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#sagradafamilia2 {
+    background-image: url("../img/REF_SAGRADA_FAMILIA_CT6A6208.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#casabatllo2 {
+    background-image: url("../img/casabatllo-horizontal.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#parkguell2 {
+    background-image: url("../img/atardecer-desde-el-park-guell.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+#lapedrera2 {
+    background-image: url("../img/casa-mila-la-pedrera-gaudi-barcelona_0.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px black;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-nav {
+        width: 100%;
+        height: 100%;
+        float: left;
+        position: relative;
+        font-size: 3vw;
+        padding: 1vw;
+    }
+    #fila {
+        width: 100%;
+        float: left;
+    }
+    .column-50 {
+        width: 100%;
+        float: left;
+        margin-left: 0%;
+        border: solid 3px black;
+        background-color: white;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 3.5vw;
+    }
+    .column-4 {
+        width: 50%;
+        float: left;
+    }
+    .flex {
+        width: 100%;
+        font-size: 8vw;
+    }
+    .column-25 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        color: white;
+    }
+    .padding-f {
+        padding: 2vw;
+    }
+    .cuadro2 {
+        border: solid 3px white;
+        padding: 1vw;
+        color: black;
+    }
+}
